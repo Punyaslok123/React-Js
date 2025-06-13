@@ -1,0 +1,122 @@
+body{
+  overflow: hidden;
+}
+
+.nav_container{
+  margin:  auto;
+  display: flex;
+  height: 10vmin;
+  width:90vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.img_container img{
+  height:4vmin;
+}
+
+.middlenav{
+  display: flex;
+
+}
+
+.middlenav li{
+  color:blue;
+}
+.middlenav li:hover{
+      color:black;
+      cursor: pointer;
+}
+
+.middlenav li{
+  margin-left: 2vmin;
+  list-style:none;
+  font-size: small;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rightnav button{
+    height: 4vmin;
+    width:9vmin;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 1vmin;
+}
+
+.rightnav button:hover{
+     transform: scale(1.07);
+     cursor: pointer;
+}
+
+.hero_container{
+  margin: auto;
+  width:90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.right_div {
+  height: 65vmin;
+  width:40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28vmin;
+}
+.right_div img{
+   height: 60vmin;
+   width:30vw;
+
+}
+.left_div{
+  width:40vw;
+  margin-bottom: 19vmin;
+}
+
+.left_div h1{
+    font-size: 9vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 2vw;
+}
+
+.left_div p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+
+.left_buttons button{
+  background-color: red;
+  border: none;
+  margin-right: 2vmin;
+  border-radius: 1vmin;
+  height:5vmin;
+  color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.left_buttons button:hover{
+   transform:scale(1.07);
+   cursor:pointer;
+}
+
+.left_bottom{
+  width:30vmin;
+      display: flex;
+      
+}
+
+.left_bottom img{
+  height: 4vmin;
+  margin-top: 2vmin;
+  margin-right: 2vmin;
+}
+
+
+
