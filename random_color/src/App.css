@@ -1,0 +1,40 @@
+.container{
+  padding-top:2vmin;
+  text-align: center;
+}
+
+.container button{
+  background-color: red;
+  border:none;
+  height: 6vmin;
+  margin-right: 2vmin;
+  color:white;
+  border-radius: 4px;
+  font-size: large;
+}
+
+
+.container button:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+
+}
+
+.footer{
+  padding-top: 16vmin;
+}
+
+.color_type{
+    color:white;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+.color{
+  margin-top: 16vmin;
+  font-size: xx-large;
+  color: blue;
+  font-weight: 900;
+
+}
