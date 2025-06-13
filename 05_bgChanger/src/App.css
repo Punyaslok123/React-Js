@@ -1,0 +1,104 @@
+
+#root{
+    height:100vh;
+    width:100vw;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 5vh auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.container button {
+  padding: 0.5rem 1rem;
+  min-width: 80px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.container button:hover {
+  transform: scale(1.05);
+}
+
+
+.blue{
+  background-color: blue;
+}
+.red{
+  background-color: red;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.purple{
+   background-color: purple;
+}
+.olive{
+  background-color: olive;
+}
+
+.black{
+  background-color: black;
+  color:white;
+}
+
+.container .white{
+  background-color: white;
+  color:black;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+.button{
+  cursor:pointer;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 90%;
+    margin-top: 5vh;
+    padding: 1rem;
+  }
+
+  .container button {
+    font-size: 0.9rem;
+    min-width: 70px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container button {
+    font-size: 0.8rem;
+    min-width: 65px;
+    height: 40px;
+    padding: 0 8px;
+  }
+}
+
